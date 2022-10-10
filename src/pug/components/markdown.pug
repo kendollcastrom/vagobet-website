@@ -1,31 +1,3 @@
 div(class='ed-container')
 	div(class='ed-item')
-		h1 Esto es un h1 creado con html puro internamente en el pug file
-		:markdown-it
-			## Esta titulo y esta lista son markdowns creados dentro del pug file
-			- Lorem ipsum dolor sit amet consectetur adipisicing `elit`.
-			- Lorem ipsum dolor sit amet consectetur adipisicing `elit`.
-			- Lorem ipsum dolor sit amet consectetur adipisicing `elit`.
-			- Lorem ipsum dolor sit amet consectetur adipisicing `elit`.
-div(class='ed-container')
-	div(class='ed-item')
-		
-		:markdown-it(html)
-			## Este titulo y este texto html es creado dentro del pug file
-			```html
-				<div class="main-banner img-container" id="main-banner">
-					<div class="ed-grid lg-grid-6">
-						<div class="lg-cols-4 lg-x-2">
-							<img class="main-banner__img" src="tu-imagen.jpg">
-							<div class="main-banner__data s-center">
-								<p class="t2 s-mb-0">Título del banner</p>
-								<p> Subtítulo del banner</p>
-								<a href="#" class="button">Botón del banner</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			```
-div(class='ed-container')
-	div(class='ed-item')
 		include:markdown-it(html) ../md/example.md
