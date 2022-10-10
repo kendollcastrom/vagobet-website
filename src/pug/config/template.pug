@@ -1,21 +1,14 @@
 block config
-	include vars
-	include mixins/mixins
+	include utilis/vars
+	include utilis/mixins
 doctype html
 html(lang='en' prefix='og: http://ogp.me/ns#', class='no-js')
-	include utilis/bodyElements/IEtags
 	head
-		include utilis/head/metatags
-		include utilis/head/metaTagsPWA
-		include utilis/head/HTML5Shiv
-		include utilis/head/openGraph
-		include utilis/head/twetterCard
-		include utilis/head/cdnFonts
-		include utilis/head/cdnStyles
+		include utilis/metatags
+		include utilis/metaTagsPWA
 		link(rel="stylesheet" href="assets/css/styles.css")
 		title= currentPage.slice(0,1).toUpperCase() + currentPage.slice(1) + " | " + siteName
 	body(class=currentPage, itemscope itemtype="http://schema.org/WebPage")
-		include utilis/bodyElements/upBrowser
 		//here start the Main Header
 		header(class='main-header')
 			include ../components/top-nav
@@ -30,6 +23,5 @@ html(lang='en' prefix='og: http://ogp.me/ns#', class='no-js')
 			include ../includes/footer
 			block main-footer
 		//here ends the Main Footer
-		include utilis/bodyElements/cdnLibraries
 		script(src="assets/js/scripts-min.js")
 		block scripts
