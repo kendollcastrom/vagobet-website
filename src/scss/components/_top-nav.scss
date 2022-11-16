@@ -1,14 +1,13 @@
 .top-nav{
-	border-bottom 	: 1px solid #DFE0E0;
-	background    	: #FFF;
+	background    	: $color-first;
 	position      	: fixed;
 	top           	: 0;
 	width         	: 100%;
 	left          	: 0;
 	display 		: flex;
 	justify-content : center;
+	
 	z-index: 1;
-
 	&__container{
 		display 		: flex;
 		justify-content : space-between;
@@ -17,58 +16,51 @@
 		max-width: 1200px;
 		padding: 0 15px;
 	}
-
 	&__link{
 		align-self: center;
 	}
 	&__logo{
-		height: 1.1rem;
+		height: 1.7rem;
 		width: auto;
 		display: block;
 		@include from(l){
-			height: 1.4rem;
+			height: 1.4rem;;
 		}
 	}
 	&__menu{
-		@include fromTo(s,l){
-			position 		: fixed;
-			padding 		: 0 10px;
-			height 			: 100vh;
-			width 			: 260px;
-			background 		: white;
-			transition 		: right .5s;
-			overflow-y 		: auto;
-			border-top 		: 1px solid #DFE0E0;
-			border-left 	: 1px solid #DFE0E0;
-			top 			: var(--header-height);
-			right 			: -260px;
-			&.show-top-nav {
-				right 		: 0;
-			}
-		}
-		@include from(l){
-			align-self: center;
-			margin: 0;
-			padding: 0;
+		position 		: fixed;
+		padding 		: 0 10px;
+		height 			: 100vh;
+		width 			: 260px;
+		background 		: $color-first;
+		transition 		: right .5s;
+		overflow-y 		: auto;
+		top 			: var(--header-height);
+		right 			: -260px;
+		&.show-top-nav {
+			right 		: 0;
 		}
 	}
 	&__li{
-		@include fromTo(s,l){
-			display: block;
-			border-bottom: 1px solid #DFE0E0;
-			padding: 10px 0;
-			margin: 0;
-
-		}
+		color: $color-fourth;
+		display: flex;
+		border-bottom: 0.0025rem solid #DFE0E0;
+		padding: 18px 0;
+		margin: 0;
 		margin-left: 1em;
 		list-style-type: none;
-		display: inline-block;
+		text-decoration: none;
 	}
 	&__anchor{
+		
 		@include fromTo(s,l){
 			display: block;
+			
 		}
 
+		@include from (l) {
+			color: $color-fourth;
+		}
 	}
 
 	&__mb-iconMenu {
@@ -78,11 +70,11 @@
 		padding: 0;
 		span{
 			&.hamburger-inner{
-				background: black;
+				background: $color-fourth;
 				&::after{}
 				&::before{}
 				&::after, &::before{
-					background: black;
+					background: $color-fourth;
 				}
 			}
 		}
@@ -93,9 +85,9 @@
 			outline: 5px auto -webkit-focus-ring-color;
 			outline-offset: -2px;
 		}
-		@include from(l){
-			display: none;
-		}
 	}
+}
 
+.top-nav-control {
+	display: flex;
 }

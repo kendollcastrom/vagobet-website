@@ -1,13 +1,7 @@
-import {topNav} from './modules/topNav'
-import {searchFilter} from './modules/searchFilter'
-import {swDetecter} from './modules/swDetecter';
+import {topNav} from './components/topNav';
+import {initAcc} from './components/dropdown';
 (()=>{
-	swDetecter();
-	topNav();
-	if (document.body.classList.contains('home')) {
-		// functions here
-	}else if (document.body.classList.contains('portfolio')) {
-		// functions here
-		searchFilter();
-	}
-})();
+    topNav();
+	initAcc();
+})(); 
+

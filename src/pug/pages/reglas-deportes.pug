@@ -1,0 +1,10 @@
+extends ../config/template
+append config
+	-currentPage		= "Reglas de Deportes"
+	-siteName			= 'Vagobet'
+	-content			= 'content'
+	-pageDescription	= 'Página para las distinas reglas de deportes.'
+block main-header
+block main-container
+	include ../components/sport-rules
+block scripts

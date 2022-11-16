@@ -1,0 +1,14 @@
+mixin general-rule(listItem)
+	li= listItem
+
+div(class='ed-grid rows-gap s-grid-1 l-grid-3 rules-container')
+		h1(class='s-cols-3') Reglamento
+		ol(class='s-rows-1 s-cols-2 list-item__rule')
+			-for(var i = 0; i < reglamentos.length; i++)
+				if(reglamentos[i].list)
+					li= reglamentos[i].item
+						ol(class='list-item__alpha')
+							-for(var j = 0; j < reglamentos[i].list.length; j++)
+								li= reglamentos[i].list[j]
+				else
+					+general-rule(reglamentos[i].item)

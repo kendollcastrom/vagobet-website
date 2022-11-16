@@ -1,0 +1,19 @@
+.rules-container {
+	padding: 20px;
+	background-color: $color-fourth;
+	box-shadow: $box-shadow-first;
+	border-radius: 15px;
+	margin-bottom: 40px;
+}
+
+.list-item__rule {
+	padding: 0 25px;
+
+	li {
+		margin-bottom: 20px;
+	}
+}
+
+.list-item__alpha {
+	list-style-type: upper-alpha;
+}

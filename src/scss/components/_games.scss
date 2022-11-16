@@ -1,0 +1,34 @@
+.games-wrapper {
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+
+	&__title {
+		font-size: 2rem;
+		color: $color-fourth;
+	}
+}
+
+.games-content {
+	width: 500px;
+	max-width: 1200px;
+	width: 100%;
+}
+
+.games-card {
+	grid-column: 1fr 1fr 1fr;
+	padding: 8px;
+	border-radius: 16px;
+	background-color: $color-first;
+
+	&__img {
+		max-width: 100%;
+	}
+	
+	h3{
+		color: $color-fourth;
+	}
+}
+
+
+
