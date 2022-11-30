@@ -28,15 +28,6 @@
 		width: 40%;
 		padding: 0;
 	}
-
-	&__phone {
-		font-weight: 300;
-
-		a {
-			color: $color-fiveth;
-			font-weight: 600;
-		}
-	}
 }
 
 .login__form {
@@ -70,6 +61,22 @@
 
 	button:hover {
 		background-color: $color-eight;
+	}
+}
+
+.mobile {
+	display: flex;
+
+	@include from(m) {
+		display: none;
+	}
+}
+
+.desktop {
+	display: none;
+
+	@include from(m) {
+		display: flex;
 	}
 }
 

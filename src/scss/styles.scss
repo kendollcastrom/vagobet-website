@@ -15,3 +15,19 @@
 // Todos los hacks que hayas necesitado para solucionar conflictos
 // o resolver situaciones extremas. Se espera poder mejorarlos luego.
 @import "hacks/hacks"; 
+
+.mobile {
+	display: flex;
+
+	@include from(m) {
+		display: none;
+	}
+}
+
+.desktop {
+	display: none;
+
+	@include from(m) {
+		display: flex;
+	}
+}
