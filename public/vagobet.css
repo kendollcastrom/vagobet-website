@@ -1,0 +1,867 @@
+@import "default-classic.css";
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700,900&display=swap');
+#OddsModeChange DIV {
+    background: #272727 !important;
+}
+
+body,
+th,
+td {
+    background-image: none;
+    font: normal 11px 'Roboto', sans-serif;
+}
+
+#OddsModeChange DIV {
+    border-radius: 2px 2px 2px 2px !important;
+    top: 48px !important;
+    left: 556px !important;
+}
+
+body #MainContainer {
+    min-width: 1280px !important;
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+#Top {
+    height: 90px;
+    width: 100%;
+}
+
+#TopOptionsBlock {
+    font: 15px 'Roboto', Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+    line-height: 32px;
+    margin: 0;
+    padding: 0 30px;
+}
+
+#TopOptionsBlock a {
+    cursor: pointer;
+    display: inline-block;
+}
+
+#TopOptionsBlock a:hover {
+    text-decoration: underline;
+}
+
+#TopOptionsBlock a::before {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f005";
+    font-size: 11px;
+    vertical-align: top;
+}
+
+#TopOptionsBlock .dropdown-content {
+    border-radius: 0 0 5px 5px;
+}
+
+#TopOptionsBlock .dropdown-content a {
+    display: block;
+    font-size: 14px;
+    padding: 1px 16px;
+    text-transform: capitalize;
+}
+
+#TopOptionsBlock .dropdown-content a:hover {
+    text-decoration: none;
+}
+
+#TopOptionsBlock .dropdown-content a::before {
+    content: "";
+}
+
+#UserBlock.themeNew {
+    background: none;
+    width: 320px;
+    box-shadow: none;
+    height: 90px;
+    top: 0;
+    font: normal 11px 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+#UserBlock.themeNew #UserBlockMain {
+    background: no-repeat;
+    height: 90px;
+    width: 100%;
+    border: none;
+}
+
+#UserBlock.themeNew #UserBlockMain #UserWelcome {
+    top: 0;
+    left: 0;
+    border: none;
+    width: auto;
+    height: 32px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+#UserBlock.themeNew #UserBlockMain #UserWelcome::before {
+    font-size: 16px;
+    vertical-align: top;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f6e2";
+}
+
+#UserBlock.themeNew #UserBlockMain #UserLogout {
+    top: 0;
+    width: 106px;
+    height: 32px;
+    border-radius: 0;
+}
+
+#UserBlock.themeNew #UserBlockMain #UserLogout a {
+    padding: 0 15px;
+    width: auto;
+    height: 32px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+#UserBlock.themeNew #UserBlockMain #UserLogout a::before {
+    font-size: 11px;
+    vertical-align: top;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f506";
+}
+
+#UserBlock.themeNew #UserBlockMain #UserAccountInfo {
+    top: 33px;
+    width: 100%;
+    height: 58px;
+    left: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+#UserBlock.themeNew #UserBlockMain #UserAccountInfo div {
+    height: 40px;
+    width: 106px;
+    float: left;
+    line-height: 17px;
+    margin: 0 1px 0 0;
+    border-bottom: none;
+    background: #FFF;
+    box-shadow: 0 0 5px #4d4d4d;
+}
+
+#UserBlock.themeNew #UserBlockMain #UserAccountInfo div:last-child {
+    margin: 0;
+}
+
+#UserBlock.themeNew #UserBlockMain #UserAccountInfo div strong,
+#UserBlock.themeNew #UserBlockMain #UserAccountInfo div span {
+    width: 100%;
+    float: none;
+    text-align: center;
+    white-space: nowrap;
+}
+
+#UserBlock.themeNew #UserBlockMain #UserMainOptions {
+    top: 73px;
+    left: 0;
+    height: 16px;
+    width: auto;
+}
+
+#UserBlock.themeNew #UserBlockMain #UserMainOptions div {
+    display: inline-block;
+    padding: 0;
+}
+
+#UserBlock.themeNew #UserMainOptions div a {
+    margin: 0;
+    padding: 1px 5px;
+    border-radius: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+#UserBlock.themeNew #UserSubOptions {
+    display: inline;
+    top: 73px;
+    right: 0;
+    left: auto;
+    width: auto;
+    height: 16px;
+}
+
+#UserBlock.themeNew #UserSubOptions span a {
+    line-height: 15px;
+    background: #0e5b13;
+    font-size: 10px;
+    padding: 1px 5px;
+    display: inline-block;
+}
+
+.themeNew #SportsbookOptions {
+    margin: 1px 0;
+}
+
+.themeNew #SportsbookOptions div a {
+    padding: 0 8px;
+}
+
+.themeNew #PageContent {
+    border: none;
+    margin: 0;
+    padding: 19px 0 19px 10px;
+}
+
+.themeNew #PageContent h1,
+.themeNew #OddsTables .leaguetitle,
+.themeNew #PageContent #OddsTables .parlay-teaser tbody tr:first-child td strong {
+    background: none;
+    text-align: left;
+    font-style: normal;
+    width: 100%;
+    font: bold 12px/30px 'Roboto', Arial, san-serif;
+}
+
+.themeNew #PageContent h1::before,
+.themeNew #OddsTables .leaguetitle::before,
+.themeNew #PageContent #CreateWagerOptions .WagerTable2 tbody tr:first-child td::before,
+.themeNew #PageContent #CreateWagerOptions td p ::before,
+.themeNew #PageContent #OddsTables .parlay-teaser tbody tr:first-child td strong::before {
+    font-size: 11px;
+    vertical-align: top;
+    margin-right: 5px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f0da";
+}
+
+.themeNew #PageContent h2 {
+    font: bold 11px/26px 'Roboto', Arial, san-serif;
+    text-align: right;
+}
+
+.themeNew #PageContent #oddslinks input,
+.themeNew #PageContent #LeaguesBlocks .leaguesoptions div input,
+.themeNew #PageContent #OddsTables input[type="submit"],
+.themeNew #PageContent #OddsTables .oddslinks input,
+.themeNew #PageContent #CreateWagerOptions td input[type="submit"],
+.themeNew #PageContent center input[type="submit"],
+.themeNew #PageContent #CreateWagerOptions td[width="33%"] input,
+.themeNew #PageContent #HistoryTable #save,
+.themeNew #PageContent #HistoryTable input[type="submit"] {
+    font: 12px/22px 'Roboto', Arial, Helvetica, sans-serif;
+    height: 24px;
+    border-radius: 3px;
+    margin: 0 0 0 10px;
+    transition: all ease 0.5s;
+}
+
+.themeNew #PageContent #HistoryTable #save,
+.themeNew #PageContent #HistoryTable input[type="submit"] {
+    padding: 0 15px;
+}
+
+.themeNew #PageContent #LeaguesBlocks .leaguesblock {
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+.themeNew #PageContent #LeaguesBlocks .leaguesblock h3 a {
+    border-radius: 5px 5px 0 0;
+    transition: all ease .5s;
+    font: bold 14px/28px 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.themeNew #PageContent #LeaguesBlocks .leaguesblock h3 a::before {
+    margin-right: 5px;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f105";
+}
+
+.themeNew #PageContent #LeaguesBlocks .leagueevent {
+    border: none;
+}
+
+.themeNew #PageContent #LeaguesBlocks .leaguesoptions div {
+    background: none;
+    padding: 5px 0 5px 0;
+}
+
+div#ctl00_WagerContent_UpdatePanel1 table tr.TrGameOdd td {
+    color: #fff;
+}
+
+div#ctl00_WagerContent_UpdatePanel1 table tr.TrGameEven td {
+    color: #fff;
+}
+
+table#HistoryTable td {
+    color: #fff!important;
+}
+
+
+/* ODDS TABLES AND CONFIRMATION */
+
+.themeNew #PageContent #OddsTables tr.trgameodd,
+.themeNew #PageContent #OddsTables td,
+.themeNew #PageContent #CreateWagerTable td,
+.themeNew #PageContent #OddsTables tr.trtntdetail {
+    background: none;
+}
+
+.themeNew #PageContent #HistoryTable td {
+    padding: 10px 0;
+}
+
+.themeNew #PageContent #OddsTables .trgameodd td {
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.themeNew #PageContent #OddsTables th,
+.themeNew #PageContent #OddsTables td,
+.themeNew #PageContent #CreateWagerTable td,
+.themeNew #PageContent #BalanceTable td,
+.themeNew #PageContent #BalanceTable th {
+    font: normal 10px/20px 'Roboto', Verdana, Arial, Helvetica, sans-serif;
+    border: none;
+}
+
+.themeNew #PageContent #OddsTables tr.trgameodd td,
+.themeNew #PageContent #OddsTables tr.trgameeven td,
+.themeNew #PageContent #OddsTables tr.trtntdetail td,
+.themeNew #PageContent #CreateWagerTable td {
+    padding: 6px 3px;
+}
+
+.themeNew #PageContent #OddsTables tr.trgameodd input,
+.themeNew #PageContent #OddsTables tr.trgameeven input,
+.themeNew #PageContent #OddsTables tr.trtntdetail input {
+    vertical-align: middle;
+}
+
+.themeNew #PageContent #OddsTables tr.gameheader {
+    text-align: center;
+}
+
+.themeNew #PageContent #OddsTables .gamebanner,
+.themeNew #PageContent #OddsTables .gamebanner2,
+.themeNew #PageContent #OddsTables .gamebannerauto,
+.themeNew #PageContent #CreateWagerTable th {
+    padding: 0;
+    font: normal 10px/20px 'Roboto', Verdana, Arial, Helvetica, sans-serif;
+}
+
+.themeNew #PageContent #CreateWagerTable td,
+.themeNew #PageContent #CreateWagerTable th {
+    font-size: 12px;
+    border-bottom: none;
+}
+
+.themeNew #PageContent #CreateWagerTable td a {
+    color: #BF5353;
+}
+
+.themeNew #PageContent #CreateWagerTable td a:hover {
+    color: #d52828;
+    text-decoration: underline;
+}
+
+.themeNew #PageContent #OddsTables .parlay-teaser {
+    width: 25%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.themeNew #PageContent #OddsTables .parlay-teaser tr td[width="20%"] {
+    width: 100%;
+}
+
+.themeNew #PageContent #OddsTables .parlay-teaser tbody tr:nth-child(2) td {
+    padding: 10px 0;
+    font-size: 12px;
+}
+
+.themeNew #PageContent #OddsTables .parlay-teaser tbody tr:nth-child(2) td input {
+    text-align: center;
+}
+
+.themeNew #PageContent #OddsTables input[type="text"],
+.themeNew #PageContent #CreateWagerTable select,
+.themeNew #PageContent #CreateWagerTable input[type="text"],
+.themeNew #PageContent #HistoryTable select,
+.themeNew #PlayerHistory #ChooseWeek select,
+.themeNew #MessagesSystem #ComposeMessageTable input[type="text"] {
+    width: 50px;
+    border: none;
+    height: 30px !important;
+    max-width: 400px;
+    line-height: 30px;
+    border-radius: 3px;
+}
+
+.themeNew #PageContent #CreateWagerTable select,
+.themeNew #PageContent #CreateWagerTable input[type="text"],
+.themeNew #PageContent #HistoryTable select {
+    width: 70%;
+}
+
+.themeNew #PageContent #CreateWagerOptions {
+    width: 400px;
+    margin: 0 auto;
+    background: none;
+}
+
+.themeNew #PageContent #CreateWagerOptions td {
+    border: none;
+    text-align: center;
+}
+
+.themeNew #PageContent #CreateWagerOptions .WagerTable2,
+.themeNew #PageContent #CreateWagerOptions table {
+    width: 100%;
+}
+
+.themeNew #PageContent #CreateWagerOptions .WagerTable2 tbody tr:first-child td {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.themeNew #PageContent #CreateWagerOptions .WagerTable2 tbody tr:first-child td::before,
+.themeNew #PageContent #CreateWagerOptions td p ::before {
+    content: "\f0d7";
+}
+
+.themeNew #PageContent #CreateWagerOptions .WagerTable2 .amountbox3 {
+    padding: 10px;
+}
+
+.themeNew #PageContent #CreateWagerOptions table td input[type="text"],
+.themeNew #PageContent #CreateWagerOptions table td input[type="password"] {
+    width: 60%;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 3px solid #CCC;
+    height: 40px;
+    line-height: 40px;
+    margin: 15px auto;
+    box-shadow: inset 0 0 5px #4f4f4f;
+    background: #FFF url('https://image.flaticon.com/icons/png/128/138/138292.png') no-repeat -10px 5px;
+    background-size: 45px;
+}
+
+.themeNew #PageContent #CreateWagerOptions table td input[type="password"] {
+    background-image: none;
+}
+
+.themeNew #PageContent #CreateWagerOptions .WagerTable2 tbody tr:nth-child(6) td {
+    text-align: center;
+}
+
+.themeNew #PageContent #CreateWagerOptions td p {
+    line-height: 30px;
+}
+
+.themeNew #PageContent #CreateWagerOptions td[width="33%"] p {
+    line-height: normal;
+    border-bottom: none;
+}
+
+.themeNew #PageContent #CreateWagerOptions td[width="33%"] p:last-child span {
+    display: none;
+}
+
+.themeNew #PageContent #TeaserSelection li {
+    font: bold 18px/48px 'Roboto', Arial, sans-serif;
+    border-radius: 3px;
+    height: 48px;
+}
+
+#TeaserBuyPoints {
+    margin-top: 25px;
+}
+
+.themeNew #PlayerHistory #ChooseWeek {
+    border-top: none;
+    border-bottom: 1px solid #333;
+    text-transform: capitalize;
+    font: normal 12px 'Roboto', Verdana, Arial, Helvetica, sans-serif;
+}
+
+.themeNew #PlayerHistory #BalanceTable {
+    margin: 30px auto;
+}
+
+.themeNew #PlayerHistory #HistoryTable tr.trgameodd,
+.themeNew #PlayerHistory #HistoryTable tr.trgameeven {
+    background: none;
+}
+
+.themeNew #PageContent #MessagesSystem {
+    width: auto;
+}
+
+.themeNew #PageContent #MessagesOptions {
+    width: 25%;
+}
+
+.themeNew #PageContent #MessagesOptions #ComposeButton input {
+    background: #36793d;
+    border-radius: 3px;
+}
+
+.themeNew #PageContent #MessagesContent {
+    width: 72%;
+}
+
+.themeNew #PageContent #MessagesContent h2 {
+    text-align: left;
+    background: none;
+}
+
+.themeNew #PageContent #MessagesContent #MessageOverButtons input {
+    background: #7d2f2f;
+    border-radius: 3px;
+}
+
+.themeNew #PageContent #HistoryTable {
+    max-width: 600px;
+}
+
+.themeNew #minigames-container .row {
+    margin: 0 0 15px 0;
+}
+
+.themeNew #minigames-container .row #minigame {
+    width: 100% !important;
+}
+
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+    #ctl00_PromoCol~#Center {
+        width: 72% !important;
+    }
+    #ctl00_PromoCol {
+        min-width: 26% !important;
+    }
+}
+
+@media only screen and (min-width: 1441px) and (max-width: 1600px) {
+    #ctl00_PromoCol~#Center {
+        width: 76% !important;
+    }
+    #ctl00_PromoCol {
+        min-width: 22% !important;
+    }
+}
+
+@media only screen and (min-width: 1601px) {
+    #ctl00_PromoCol~#Center {
+        width: 78% !important;
+    }
+    #ctl00_PromoCol {
+        min-width: 20% !important;
+    }
+}
+
+
+/* ------------------------------------------------ */
+
+
+/* ------------------ DARK THEME ------------------ */
+
+
+/* ------------------------------------------------ */
+
+body,
+.themeNew #PageContent {
+    color: #EEE;
+    background-color: black !important;
+}
+
+.splitSchedule #PageContent h1 {
+    color: #000 !important;
+    background-color: #cef501!important;
+}
+
+
+/* HEADER */
+
+.themeNew #TopMessage {
+    background: #ec821a!important;
+}
+
+#Top {
+    background: rgb(14, 14, 14) url('https://wager.vagobet.com/Master/Classic/images/vagobet/bg-top.png') no-repeat 25px 9px !important;
+}
+
+#TopOptionsBlock {
+    border-bottom: 1px solid #464646;
+    background: #222;
+}
+
+#TopOptionsBlock div a {
+    color: #dadada;
+    margin: 0 14px 0 0 !important;
+}
+
+#TopOptionsBlock a::before {
+    color: #cef501;
+}
+
+#TopOptionsBlock .dropdown-content {
+    background-color: #333;
+    border: 1px solid #222;
+    /* SAME AS TopOptionsBlock BG */
+}
+
+#TopOptionsBlock .dropdown-content a:hover {
+    background: #222;
+}
+
+
+/* SAME AS TopOptionsBlock BG */
+
+#UserBlock.themeNew #UserBlockMain #UserWelcome {
+    color: #FFF;
+}
+
+
+/* Opposite to TopOptionsBlock BG */
+
+#UserMainOptions div a {
+    color: #FFF;
+    background: #222;
+}
+
+
+/* TITLES */
+
+.themeNew #PageContent h1,
+.themeNew #OddsTables .leaguetitle,
+.themeNew #PageContent #CreateWagerOptions .WagerTable2 tbody tr:first-child td,
+.themeNew #PageContent #CreateWagerOptions td p,
+.themeNew #PageContent #OddsTables .parlay-teaser tbody tr:first-child td strong {
+    color: #ec821a;
+    /* Opposite to PageContent BG */
+    border-bottom: 1px solid #333;
+}
+
+.themeNew #PageContent #OddsTables .parlay-teaser tbody tr:first-child td strong {
+    border: none;
+}
+
+.themeNew #PageContent h2 {
+    color: #888;
+}
+
+
+/* Opposite to PageContent BG */
+
+
+/* BUTTONS*/
+
+.themeNew #PageContent #oddslinks input,
+.themeNew #PageContent #LeaguesBlocks .leaguesoptions div input,
+.themeNew #PageContent #OddsTables .oddslinks input,
+.themeNew #PageContent #OddsTables input[type="submit"],
+.themeNew #PageContent #CreateWagerOptions td input[type="submit"],
+.themeNew #PageContent center input[type="submit"],
+.themeNew #PageContent #CreateWagerOptions td[width="33%"] input,
+.themeNew #MessagesSystem #ComposeMessageTable input[type="submit"],
+.themeNew #MessagesSystem #ComposeMessageTable input[type="text"],
+.themeNew #MessagesSystem #ComposeMessageTable textarea {
+    background: #111;
+    border: 1px solid #393939;
+    color: #AAA;
+}
+
+.themeNew #PageContent #oddslinks input:hover,
+.themeNew #PageContent #LeaguesBlocks .leaguesoptions div input:hover,
+.themeNew #PageContent #OddsTables .oddslinks input:hover,
+.themeNew #PageContent #CreateWagerOptions td input[type="submit"]:hover,
+.themeNew #PageContent #CreateWagerOptions td[width="33%"] input:hover {
+    background: #222;
+}
+
+.themeNew #PageContent #oddslinks input:first-child,
+.themeNew #PageContent #LeaguesBlocks .leaguesoptions div input:first-child,
+.themeNew #PageContent #OddsTables .oddslinks input:first-child,
+.themeNew #PageContent #CreateWagerOptions td input[type="submit"]:first-child,
+.themeNew #PageContent #HistoryTable #save,
+.themeNew #PageContent #HistoryTable input[type="submit"],
+.themeNew #MessagesSystem #ComposeMessageTable input[type="submit"] {
+    background: #1A4F12;
+    border: 1px solid #2A6035;
+    color: #FFF;
+}
+
+.themeNew #PageContent #oddslinks input:hover:first-child,
+.themeNew #PageContent #LeaguesBlocks .leaguesoptions div input:hover:first-child,
+.themeNew #PageContent #OddsTables .oddslinks input:hover:first-child,
+.themeNew #PageContent #CreateWagerOptions td input[type="submit"]:hover:first-child,
+.themeNew #PageContent #HistoryTable #save:hover,
+.themeNew #PageContent #HistoryTable input[type="submit"]:hover,
+.themeNew #MessagesSystem #ComposeMessageTable input[type="submit"]:hover {
+    background: #28771E;
+}
+
+
+/* LEAGUES BLOCK */
+
+.themeNew #PageContent #LeaguesBlocks .leaguesblock {
+    background-color: rgb(70, 70, 70);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.themeNew #PageContent #LeaguesBlocks .leaguesblock h3 a {
+    background-color: #1b1b1b;
+}
+
+.themeNew #PageContent #LeaguesBlocks .leaguesblock h3 a:hover {
+    background-color: #000;
+}
+
+.themeNew #PageContent #LeaguesBlocks .leagueevent a {
+    color: #fff;
+}
+
+
+/* Opposite to leaguesblock BG */
+
+.themeNew #PageContent #LeaguesBlocks .leaguesoptions div {
+    border-top: 1px solid rgba(255, 255, 255, 0.04);
+}
+
+
+/* ODDS TABLE AND CONFIRMATION*/
+
+.themeNew #PageContent #OddsTables tr.gameheader {
+    background: #1b1b1b;
+}
+
+.themeNew #PageContent #OddsTables .gamebanner,
+.themeNew #PageContent #OddsTables .gamebanner2,
+.themeNew #PageContent #OddsTables .gamebannerauto,
+.themeNew #PageContent #CreateWagerTable th,
+.themeNew #PageContent #OddsTables tr.tntheader,
+.themeNew #PageContent #HistoryTable th,
+.themeNew #PageContent #BalanceTable th {
+    background: #242424;
+    color: #DDD;
+    border-bottom: none;
+    border-top: 1px solid #313131;
+}
+
+.themeNew #PageContent #OddsTables th {
+    color: #EEE;
+}
+
+.themeNew #PageContent #OddsTables td,
+.themeNew #PageContent #CreateWagerTable td,
+.themeNew #PageContent #HistoryTable td,
+.themeNew #PageContent #BalanceTable td {
+    color: #EEE;
+    border-bottom: none;
+    border-top: 1px solid #313131;
+}
+
+.themeNew #PageContent #HistoryTable th {
+    border-left: 1px solid #313131;
+    border-right: 1px solid #313131;
+}
+
+.themeNew #PageContent #OddsTables input[type="text"],
+.themeNew #PageContent #CreateWagerTable select,
+.themeNew #PageContent #CreateWagerTable select option,
+.themeNew #PageContent #CreateWagerTable input[type="text"],
+.themeNew #PageContent #HistoryTable input,
+.themeNew #PageContent #HistoryTable select,
+.themeNew #PlayerHistory #ChooseWeek select {
+    background: #333;
+    border: 1px solid #4f4f4f;
+    color: #FFF;
+}
+
+.themeNew #PlayerHistory #ChooseWeek select {
+    width: 200px;
+}
+
+.themeNew #PageContent #CreateWagerOptions .WagerTable2 td {
+    border: none;
+    color: #EEE;
+}
+
+.themeNew #PageContent #CreateWagerOptions .WagerTable2 tbody tr:nth-child(2) td,
+.themeNew #PageContent #CreateWagerOptions .WagerTable2 tbody tr:nth-child(4) td {
+    color: #AEDD99;
+    border-bottom: 3px solid #424242;
+}
+
+.themeNew #PageContent #CreateWagerOptions .WagerTable2 .amountbox3 {
+    color: #96CAE3 !important;
+    background: #333;
+    border-bottom: 1px solid #444;
+}
+
+.themeNew #PageContent #CreateWagerOptions .WagerTable2 td input[type="submit"] {
+    margin: 15px 5px;
+}
+
+.themeNew #PageContent #CreateWagerOptions .WagerTable2 tbody tr:nth-child(6) td {
+    padding-top: 15px;
+    border-top: 1px solid #202020;
+}
+
+.themeNew #PageContent center>h3 span {
+    font-size: 16px;
+    color: #BF3636;
+}
+
+.themeNew #PageContent center>br~h2 {
+    font-size: 12px;
+    text-align: center;
+}
+
+.themeNew #PageContent #TeaserSelection li {
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #1e1e1e;
+    color: #EEE;
+}
+
+.themeNew #PlayerHistory {
+    color: #EEE;
+}
+
+.themeNew #PlayerHistory p#WeekDate {
+    text-align: center;
+}
+
+.themeNew #PlayerHistory #HistoryTable tr.trgameeven {
+    background: #171717;
+}
+
+.themeNew #PageContent #MessagesSystem #SubButtons {
+    border: 1px solid #3e3e3e;
+    border-radius: 0;
+}
+
+.themeNew #PageContent #MessagesContent table {
+    border: none;
+}
+
+.themeNew #PageContent #MessagesContent th {
+    background: #000;
+    color: #EEE;
+}
+
+.themeNew #PageContent #MessagesContent td {
+    color: #EEE;
+    font: normal 12px 'Roboto', Arial, sans-serif;
+    border-top: none;
+    border-bottom: 1px solid #2f2f2f;
+}
+
+#ctl00_PromoCol {
+    background: #111;
+}
+
+
+/* SAME AS TopOptionsBlock BG */
